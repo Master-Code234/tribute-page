@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.tribute-info {
+  text-align: center;
+}
+
+.intro-content {
+  display: inherit;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 4vh 0;
+  width: 100vw;
+  padding: 2rem;
+  color: #fff;
+  background-image: linear-gradient(90deg, hsl(0, 1%, 17%), hsl(0, 0%, 28%));
+}
+
+.title {
+  letter-spacing: 4px;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+.container {
+  max-width: 80vw;
+  margin: 2rem auto;
+  background-color: rgba(138, 138, 138, 0.084);
+  padding: 2rem 3rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+ul,
+li {
+  margin: auto 4rem;
+  text-align: left;
+  line-height: 220%;
+}
+li {
+  max-width: 20vw;
+}
+
+.date {
+  display: inherit;
+  font-weight: 600;
+}
+
+.end-heading {
+  margin: 2rem auto;
+}
+
+blockquote {
+  margin: 2rem;
+}
+
+/* Styles for small devices (up to 480px) */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .container,
+  ul,
+  li {
+    margin: 2rem 0;
+    max-width: 100vw;
+  }
+}
+
+/* Styles for medium devices (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container,
+  ul,
+  li {
+    margin: 2rem 0;
+    max-width: 100vw;
+  }
+}
